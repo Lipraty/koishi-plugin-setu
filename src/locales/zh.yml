@@ -1,0 +1,11 @@
+commands:
+  setu:
+    description: 发一个瑟图
+    options:
+      size: 设置图片大小
+      author: 指定作者 uid 的作品
+      tags: 匹配指定标签作品
+      excludeAI: 排除 AI 作品
+    messages:
+      relax: 别急，正在给你找一个瑟图！
+      error: 加载错误：{0}
